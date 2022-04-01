@@ -21,6 +21,8 @@ jobs:
         run: npm i -g pnpm
       - name: Install dependencies
         run: pnpm i
+      - name: Build
+        run: pnpm build
       - name: Make release
         run: pnpm release
         env:
