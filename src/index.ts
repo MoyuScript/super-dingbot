@@ -15,15 +15,6 @@ function makeSign(secret: string): { timestamp: number; sign: string } {
 }
 
 /**
- * 创建消息内容，用于类型提示。
- * @param message 消息内容
- * @returns
- */
-export function createMessage(message: Message): Message {
-  return message;
-}
-
-/**
  * 发送消息。
  * @param message 消息数据。
  */
