@@ -2,10 +2,24 @@
 
 一个好用的钉钉机器人库（含 CLI）
 
+## 安装
+
+```bash
+$ npm install -S super-dingbot
+
+# or
+
+$ yarn add super-dingbot
+
+# or
+
+$ pnpm add super-dingbot
+```
+
 ## 快速上手
 
 ```js
-import { send } from './dist/index.js';
+import { send } from 'super-dingbot';
 
 await send({
   accessToken: '机器人 access_token',
