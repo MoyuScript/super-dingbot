@@ -2,14 +2,16 @@
   "name": "super-dingbot",
   "version": "1.0.0",
   "description": "一个好用的钉钉机器人 Node.js 库（含 CLI）",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
     "release": "semantic-release",
     "prepare": "husky install",
-    "format": "prettier --write src/**/* && eslint --fix"
+    "format": "prettier --write src/**/* && eslint --fix src/**/*"
   },
+  "type": "module",
+  "files": ["./dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MoyuScript/super-dingbot.git"
