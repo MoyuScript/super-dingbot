@@ -18,6 +18,8 @@ $ pnpm add super-dingbot
 
 ## 快速上手
 
+### JS 库
+
 ```js
 import { send } from 'super-dingbot';
 
@@ -31,6 +33,13 @@ await send({
 });
 
 ```
+
+### CLI
+
+**环境变量：**
+
++ DINGBOT_ACCESS_TOKEN: 机器人 access_token。
++ DINGBOT_SECRET: 机器人签名密钥
 
 ## 参考
 
